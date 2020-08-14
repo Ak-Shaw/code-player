@@ -1,0 +1,97 @@
+body{
+    
+    font-family: 'Bebas Neue', sans-serif;   
+    padding: 0;
+    margin: 0;
+}
+
+#header{
+    
+    width: 100%;
+    background-color: #ededed;
+    padding: 5px;
+    height: 40px;
+    border-bottom: 5px solid black;
+}
+
+#buttonContainer{
+    
+    width: 232px;
+    margin: 0 auto;
+}
+
+.toggleButton{
+    
+    float: left;
+    border: 1px solid grey;
+    padding: 6px;
+    border-right: none;
+    font-size: 130%;
+    cursor: pointer;
+}
+
+#html{
+    
+    border-radius: 10px 0 0 10px; 
+}
+
+#output{
+    
+    border-radius: 0 10px 10px 0;
+    border-right: 1px solid grey;
+}
+
+#logo{
+    
+    float: left;
+    font-weight: 600;
+    font-size: 35px;
+    padding-left: 10px;
+}
+
+.active{
+    
+    background-color: #E8F2FF;
+}
+
+.highlightedButton{
+    
+    background-color: #cecccc;
+}
+
+textarea{
+    
+    width: 50%;
+    resize: none;
+    border-top: none;
+    border-color: #c1bdbd;
+}
+
+iframe{
+    
+    border: none;
+}
+
+.hidden{
+    
+    display: none;
+}
+
+.panel{
+    
+    float: left;
+    width: 50%;
+    border-left: none;
+}
+
+#allInactive{
+    
+    display: none;
+    font-size: 50px;
+    width: 600px;
+    border: 5px solid black;
+    border-radius: 50px;
+    background-color: #ededed;
+    margin: 150px auto 0 auto;
+    text-align: center;
+}
